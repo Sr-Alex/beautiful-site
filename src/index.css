@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer utilities {
+  .blob {
+    border-radius: 34% 65% 43% 50% / 58% 42% 56% 29%;
+  }
+}
+
+body {
+  @apply w-full min-h-screen text-proj-black dark:text-proj-white bg-proj-white dark:bg-proj-black transition-colors duration-500;
+}
+
+img {
+  @apply object-cover;
+}
