@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "proj-white": "#ECECEC",
+        "proj-white": "#F9F6EE",
         "proj-purple": "#6A0DAD",
         "proj-gray": "#686868",
         "proj-black": "#1F1F1F",
@@ -18,13 +18,9 @@ export default {
           "75%" : { "border-radius" : "43% 29% 41% 26% / 26% 45% 27% 46%"},
           "100%": { "border-radius": "45% 18% 42% 21% / 39% 51% 38% 57%"}
         },
-        "blob-expand": {
-          "100%": { "border-radius": "2rem" }
-        }
       },
       animation : {
         "blob-animation": "blob-animation 5s linear infinite alternate",
-        "blob-expand": "blob-expand .2s linear normal forwards"
       },
     },
   },

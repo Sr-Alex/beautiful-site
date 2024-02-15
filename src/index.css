@@ -7,6 +7,19 @@
   .blob {
     border-radius: 34% 65% 43% 50% / 58% 42% 56% 29%;
   }
+
+  .perspective {
+    transform-style: preserve-3d;
+    perspective: 32rem;
+  }
+
+  .rotate-x-75 {
+    transform: rotateX(75deg);
+  }
+
+  .rotate-x-0 {
+    transform: rotateX(0deg);
+  }
 }
 
 body {
